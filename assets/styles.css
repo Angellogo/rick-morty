@@ -1,0 +1,94 @@
+@font-face{
+	font-family: misfits;
+	src: url("../assets/fonts/misfits-2.ttf");
+}
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+body{
+	background:#000;
+}
+
+.content-cardss{
+	max-width: 70%;
+	min-height: 300px;
+	margin:auto;
+	text-align: center;
+}
+
+.main-box{
+	width: 21vw;
+	min-height: 85vh;
+	display: inline-block;
+	margin: 0px 3px 10px;
+	text-align: left;
+	border: solid 6px #ffeb3b;
+	box-sizing: content-box;
+	background:#fff;
+	vertical-align: top;
+}
+	
+	.main-box img{ width: 100%;}
+
+.name-tag{
+	width: 100%;
+	height: 25px;
+	font-size: 30px;
+	font-family: misfits;
+	padding-top: 20px;
+}	
+
+.content-main-box{
+	padding-left: 15px;
+	line-height: 30px;
+	font-family: 'Mali', cursive;
+	padding-bottom: 30px;
+}
+
+
+.img-inicio{
+	width: 100vw;
+	height: 70vh;
+	background: url("../assets/img/back-1.jpg");
+	background-size: cover;
+	background-position: bottom;
+	text-align: center;
+	color: #fff;
+	padding-top: 45px;
+	font-family: 'Mali', cursive;
+}
+	.img-inicio img{
+		width: 100%;
+	}
+
+
+	.logo-rm {
+    width: 300px !important;
+    margin: auto;
+    height: 90px;
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+h1{
+	color: #c92001;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
