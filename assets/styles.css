@@ -80,7 +80,7 @@ h1{
 }
 
 
-#alive{
+.buton-1{
 	width: 150px;
 	height: 25px;
 	background: red;
@@ -92,7 +92,7 @@ h1{
 }
 
 
-	#alive:hover{
+	.buton-1:hover{
 		background: #400e46;
 		cursor: pointer;
 		border:solid 1px #fff;
@@ -103,6 +103,11 @@ h1{
 .opacity{
 	opacity: .8;
 }
+
+/*#cardss, #cardss2, #cardss3{
+	width: 100%;
+	height: 100vh;
+}*/
 
 
 
