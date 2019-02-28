@@ -1,7 +1,11 @@
+//Elementos HTML
 const cardss = document.getElementById("cardss");
+// const btnAlive = document.getElementById("alive").onclick("funcBtn");
 
+// API
 const apiUrl = "https://rickandmortyapi.com/api/character";
 
+// Prueba de emparejación de contenidos
 const deadLife = document.querySelector ("#impDeadLife");
 
 
@@ -20,6 +24,17 @@ fetch(apiUrl)
 	})
 
 
+  
+
+// function funcBtn (){
+// 	btnAlive.classList.add("opacity");
+// }
+
+
+
+
+
+//Prueba de emparejacion de contenido
 const impStatus = deadLife.value;
 
 	let impDeadLife;

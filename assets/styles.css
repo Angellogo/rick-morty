@@ -10,6 +10,7 @@
 
 body{
 	background:#000;
+	overflow-x: hidden;
 }
 
 .content-cardss{
@@ -79,12 +80,29 @@ h1{
 }
 
 
+#alive{
+	width: 150px;
+	height: 25px;
+	background: red;
+	margin:auto;
+	color:#fff;
+	border: none;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+
+	#alive:hover{
+		background: #400e46;
+		cursor: pointer;
+		border:solid 1px #fff;
+	}
 
 
 
-
-
-
+.opacity{
+	opacity: .8;
+}
 
 
 
