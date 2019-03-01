@@ -115,17 +115,17 @@ function impPersonajes(personajes){
 
 
 
-var tabsAction = document.querySelectorAll (".yeah ul li");
+var tabsAction = document.querySelectorAll (".btn-ac button");
 
-tabsAction.forEach(function(paneles, index){
+tabsAction.forEach (function (paneles, index){
 	paneles.addEventListener("click",function(){
-		var actionTab = document.querySelector('.cardss-gen[data-tab="' + this.dataset.tabsAction + '"]');
+		var actionTab = document.querySelector('.cardss-gen[data-tab-btn="' + this.dataset.tabsAction + '"]');
 		console.log(actionTab);
 
 
 		//remove
 		document.querySelector(".cardss-gen.open").classList.remove("open");	
-		document.querySelector(".yeah li.active").classList.remove("active");
+		document.querySelector(".buton-1.active").classList.remove("active");
 
 		//Add
 		actionTab.classList.add("open");
@@ -134,6 +134,13 @@ tabsAction.forEach(function(paneles, index){
 })
 
 
+
+// function quit (){
+// 	document.querySelectorAll("#cardss").classList.toggle(".cardss-gen");
+// }
+// document.getElementById("alive").onclick = function(){
+// 	quit();
+// }
 
 
 
